@@ -26,7 +26,8 @@
                 android:text="Welcome!"
                 android:textColor="@color/colorBlack"
                 android:textSize="30sp"
-                android:textStyle="italic|bold" />
+                android:textStyle="italic|bold"
+                android:layout_marginLeft="120dp" />
 
             <TextView
                 android:id="@+id/email"
@@ -36,7 +37,8 @@
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="120dp"
                 android:text="Email"
-                android:textColor="@color/colorBlack" />
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="35dp" />
 
             <EditText
                 android:id="@+id/login_email"
@@ -51,7 +53,9 @@
                 android:drawableStart="@drawable/ic_email"
                 android:hint="Email..."
                 android:inputType="textEmailAddress"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:layout_alignParentLeft="true" />
 
             <TextView
                 android:id="@+id/password"
@@ -61,7 +65,8 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="20dp"
                 android:text="Password"
-                android:textColor="@color/colorBlack" />
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="32dp" />
 
             <EditText
                 android:id="@+id/login_password"
@@ -76,7 +81,9 @@
                 android:drawableStart="@drawable/password"
                 android:hint="Password..."
                 android:inputType="textPassword"
-                android:padding="8dp" />
+                android:padding="8dp"
+                android:layout_alignParentLeft="true"
+                android:drawableLeft="@drawable/password" />
 
             <TextView
                 android:id="@+id/forgetp"
@@ -90,7 +97,10 @@
                 android:textAlignment="center"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="17sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginLeft="210dp"
+                android:layout_marginRight="23dp"
+                android:gravity="center_horizontal" />
 
             <Button
                 android:id="@+id/login_button"
